@@ -13,7 +13,6 @@
 # That code will read in and process data
 source("processUtilData.R")
 powerData <- processUtilDataFile()
-head(powerData)
 
 # configure png output
 png(filename = "plot3.png",
@@ -38,7 +37,6 @@ legend("topright",
        legend = c("Sub metering 1", "Sub metering 2", "Sub metering 3"),
        lty=c(1, 1, 1),
        col=c("black","blue","red"))
-
 
 # turn device off
 dev.off()
