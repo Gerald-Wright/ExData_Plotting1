@@ -34,7 +34,7 @@ lines(powerData$DateTime,
       powerData$Sub_metering_3,
       col = "blue",)
 legend("topright",
-       legend = c("Sub metering 1", "Sub metering 2", "Sub metering 3"),
+       legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
        lty=c(1, 1, 1),
        col=c("black","blue","red"))
 
