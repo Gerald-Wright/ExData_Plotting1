@@ -32,8 +32,10 @@ processUtilDataFile <- function() {
     
     # read only the selected data
     powerData <- read.csv.sql(fileName, sql = selectSQL, sep = ";")
-    
+
     # convert date time to R Date/Time
     powerData$DateTime <- strptime(paste(powerData$Date, powerData$Time), format = "%d/%m/%Y %H:%M:%S")
 
+    # return the processed data
+    powerData
 }
