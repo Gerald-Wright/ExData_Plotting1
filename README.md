@@ -91,6 +91,56 @@ date. There should be four PNG files and four R code files.
 
 The four plots that you will need to construct are shown below. 
 
+## File Manifest
+
+<b>README.md</b> - this file
+
+<b>processUtilData.R</b> - generic code to download data file, unzip, and process.  Code was placed in this file to reduce redundant code in files plot1.R, plot2.R, plot3.R, and plot4.R
+
+<b>plot1.R</b> - code to generate plot #1, a histogram of Global Average Power (kilowatts)
+
+<b>plot2.R</b> - code to generate plot #2, a line plot with DateTime (x-axis) and Global Average Power (kilowatts) (y-axis)
+
+<b>plot3.R</b> - code to generate plot #3, a multi-line plot with DateTime (x-axis) and Sub metering 1, Sub metering 2, and Sub metering 3 as the three (y-axis)
+
+<b>plot4.R</b> - code to generate plot #4, a 2x2 matrix of four plots: 
+    upper left - duplicate of plot #2
+       line plot for DateTime (x-axis) 
+       and Global Average Power (kilowatts) (y-axis)
+    upper right -
+        line plot for DateTime (x-axis)
+        and Voltage (y-axis)
+    lower left - duplicate of plot #3
+        multi-line plot for DateTime (x-axis) 
+        Sub metering 1
+        Sub metering 2
+        and Sub metering 3 as the three (y-axis)
+    lower right -
+        line plot for DateTime (x-axis)
+        and Global Reactive power (y-axis)
+
+
+<b>plot1.png</b> - plot #1 in png format, a histogram of Global Average Power (kilowatts)
+
+<b>plot2.png</b> - plot #2 in png format, a line plot with DateTime (x-axis) and Global Average Power (kilowatts) (y-axis)
+
+<b>plot3.png</b> - plot #3 in png format, a multi-line plot with DateTime (x-axis) and Sub metering 1, Sub metering 2, and Sub metering 3 as the three (y-axis)
+
+<b>plot4.png</b> - plot #4 in png format, a 2x2 matrix of four plots: 
+    upper left - duplicate of plot #2
+       line plot for DateTime (x-axis) 
+       and Global Average Power (kilowatts) (y-axis)
+    upper right -
+        line plot for DateTime (x-axis)
+        and Voltage (y-axis)
+    lower left - duplicate of plot #3
+        multi-line plot for DateTime (x-axis) 
+        Sub metering 1
+        Sub metering 2
+        and Sub metering 3 as the three (y-axis)
+    lower right -
+        line plot for DateTime (x-axis)
+        and Global Reactive power (y-axis)
 
 ### Plot 1
 
