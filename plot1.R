@@ -4,12 +4,12 @@
 # This code will construct a histogram
 # for Global Average Power (kilowatts)
 
+
+
 # Moved redundant code into utility file "processUtilData.R".
 # That code will read in and process data
-
 source("processUtilData.R")
 powerData <- processUtilDataFile()
-head(powerData)
 
 # configure png output
 png(filename = "plot1.png",
