@@ -19,7 +19,7 @@ png(filename = "plot1.png",
 # plot the data
 hist(powerData$Global_active_power, 
     main="Global Active Power",
-    xlab="Global Active Power (Killowats)",
+    xlab="Global Active Power (kilowatts)",
     col="red")
 
 # turn device off

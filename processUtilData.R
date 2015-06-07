@@ -36,6 +36,6 @@ processUtilDataFile <- function() {
     # convert date time to R Date/Time
     powerData$DateTime <- strptime(paste(powerData$Date, powerData$Time), format = "%d/%m/%Y %H:%M:%S")
 
-    # return the processed data
+    # return the processed dataset
     powerData
 }
