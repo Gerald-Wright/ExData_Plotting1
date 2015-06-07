@@ -6,6 +6,7 @@
 
 # Moved redundant code into utility file "processUtilData.R".
 # That code will read in and process data
+
 source("processUtilData.R")
 powerData <- processUtilDataFile()
 head(powerData)
@@ -19,7 +20,7 @@ png(filename = "plot1.png",
 # plot the data
 hist(powerData$Global_active_power, 
     main="Global Active Power",
-    xlab="Global Active Power (Killowats)",
+    xlab="Global Active Power (kilowatts)",
     col="red")
 
 # turn device off
